@@ -202,155 +202,67 @@
     <!-- Call to Action End -->       
     
     <!-- Featured Product Start -->
-    <div class="featured-product product">
-        <div class="container-fluid">
-            <div class="section-header">
-                <h1>Featured Product</h1>
-            </div>
-            <div class="row align-items-center product-slider product-slider-4">
-                <div class="col-lg-3">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">Product Name</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <a href="product-detail.html">
-                                <img src="frontend/img/product-1.jpg" alt="Product Image">
-                            </a>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">Product Name</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <a href="product-detail.html">
-                                <img src="frontend/img/product-2.jpg" alt="Product Image">
-                            </a>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">Product Name</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <a href="product-detail.html">
-                                <img src="frontend/img/product-3.jpg" alt="Product Image">
-                            </a>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">Product Name</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <a href="product-detail.html">
-                                <img src="frontend/img/product-4.jpg" alt="Product Image">
-                            </a>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">Product Name</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="product-image">
-                            <a href="product-detail.html">
-                                <img src="frontend/img/product-5.jpg" alt="Product Image">
-                            </a>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  
+   <div class="recent-product product">
+    <div class="container-fluid">
+        <div class="section-header">
+            <h1>Featured Product</h1>
+        </div>
+        <div class="row align-items-center product-slider product-slider-1">
+            @foreach ($products as $product)
+                @if ($product->is_featured == 1)
+                    <div class="col-lg-3">
+                                    <div class="product-item mt-2">
+                                        <div class="product-title">
+                                            <a href="#">{{$product->title}}</a>
+                                            <div class="ratting">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="product-detail.html">
+                                                @php
+                                                        $findProduct = App\Models\Product::find($product->id);
+                                                        foreach ($findProduct->images as $key => $img) {
+                                                        $x = $img->image;
+                                                        }
+                                                        $y = json_decode($x);
+                                                        foreach ($y as $key => $z) {
+                                                            $xy= $z;
+                                                        }
+                                                @endphp
+                                            
+                                                <img src="{{asset('uploads/'.$xy)}}"  alt="" style="max-width: 100%;
+                                                height: 300px;"> 
+                                                
+                                            </a>
+                                            <div class="product-action">
+                                                <input type="hidden"  id="product_id" value="{{$product->id}}">
+                                                <input type="hidden" id="user_id" value="1">
+                                                <a href="#" onclick="addCart()"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                                <a href="{{route('product.details',$product->id)}}"><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <h3><span>$</span>{{$product->price}}</h3>
+                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                        </div>
+                                    </div>
+                                    </div>
+               
+                @endif
+               
+           
+            @endforeach
+            
         </div>
     </div>
+</div>
     <!-- Featured Product End -->       
     
     <!-- Newsletter Start -->
@@ -377,7 +289,7 @@
             <div class="section-header">
                 <h1>Recent Product</h1>
             </div>
-            <div class="row align-items-center ">
+            <div class="row align-items-center product-slider product-slider-1">
                 @foreach ($products as $product)
                     <div class="col-lg-3">
                     <div class="product-item mt-2">
@@ -401,7 +313,7 @@
                                         $y = json_decode($x);
                                         foreach ($y as $key => $z) {
                                             $xy= $z;
-        }
+                                        }
                                 @endphp
                             
                                 <img src="{{asset('uploads/'.$xy)}}"  alt="" style="max-width: 100%;
@@ -411,7 +323,7 @@
                             <div class="product-action">
                                 <a href="#"><i class="fa fa-cart-plus"></i></a>
                                 <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
+                                <a href="{{route('product.details',$product->id)}}"><i class="fa fa-search"></i></a>
                             </div>
                         </div>
                         <div class="product-price">
@@ -420,11 +332,13 @@
                         </div>
                     </div>
                 </div>
-               
+              
                 @endforeach
+                
                 
             </div>
         </div>
+        
     </div>
     <!-- Recent Product End -->
     
@@ -499,4 +413,33 @@
         </div>
     </div>
     <!-- Review End --> 
+@endsection
+
+@section('scripts')
+
+<script>
+     $.ajaxSetup({
+               headers:{
+                   'X-CSRF-TOKEN':$(' meta[name="csrf-token"]').attr('content')
+               }
+           })
+
+        function addCart(){
+            var product_id =$('#product_id').val();
+            var user_id = $('#user_id').val();
+            console.log(product_id)
+            console.log(user_id)
+            $.ajax({
+                   type:"POST",
+                   dataType:"json",
+                   data:{product_id:product_id,user_id:user_id},
+                   url:"/cart/store",
+                   success:function(data){
+                        alert('cart added');
+                   }
+                  
+               })
+        }
+</script>
+    
 @endsection

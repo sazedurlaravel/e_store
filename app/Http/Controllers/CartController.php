@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Cart;
 use Illuminate\Http\Request;
 
 class CartController extends Controller
@@ -15,7 +16,9 @@ class CartController extends Controller
     {
         //
     }
-
+    public function getCart(){
+       
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -34,7 +37,8 @@ class CartController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = Cart::create($request->all());
+        return response()->json($data);
     }
 
     /**

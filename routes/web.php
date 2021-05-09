@@ -13,8 +13,10 @@ use App\Models\Category;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/products/details/{id}','App\Http\controllers\ProductController@show')->name('product.details');
 Route::get('/','App\Http\controllers\ProductController@index')->name('product.index');
+Route::post('/cart/store','App\Http\controllers\CartController@store')->name('addTocart');
+Route::get('/get-cart','App\Http\controllers\CartController@getCart');
 
 Auth::routes();
 

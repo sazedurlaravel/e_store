@@ -26,18 +26,18 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="product-list.html" class="nav-item nav-link">Products</a>
-                    <a href="product-detail.html" class="nav-item nav-link">Product Detail</a>
-                    <a href="cart.html" class="nav-item nav-link">Cart</a>
-                    <a href="checkout.html" class="nav-item nav-link">Checkout</a>
-                    <a href="my-account.html" class="nav-item nav-link">My Account</a>
+                    <a href="{{route('product.index')}}" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Products</a>
+                    <a href="#" class="nav-item nav-link">Product Detail</a>
+                    <a href="#" class="nav-item nav-link">Cart</a>
+                    <a href="#" class="nav-item nav-link">Checkout</a>
+                    <a href="#" class="nav-item nav-link">My Account</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
                         <div class="dropdown-menu">
-                            <a href="wishlist.html" class="dropdown-item">Wishlist</a>
-                            <a href="login.html" class="dropdown-item">Login & Register</a>
-                            <a href="contact.html" class="dropdown-item">Contact Us</a>
+                            <a href="#" class="dropdown-item">Wishlist</a>
+                            <a href="#" class="dropdown-item">Login & Register</a>
+                            <a href="#" class="dropdown-item">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -62,8 +62,8 @@
         <div class="row align-items-center">
             <div class="col-md-3">
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="frontend/img/logo.png" alt="Logo">
+                    <a href="{{route('product.index')}}">
+                        <img src="/frontend/img/logo.png" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -79,9 +79,9 @@
                         <i class="fa fa-heart"></i>
                         <span>(0)</span>
                     </a>
-                    <a href="cart.html" class="btn cart">
+                    <a href="cart.html" class="btn cart" id="cart">
                         <i class="fa fa-shopping-cart"></i>
-                        <span>(0)</span>
+                        <span >(0)</span>
                     </a>
                 </div>
             </div>

@@ -18,7 +18,7 @@ class ProductController extends Controller
     public function index()
     {
         $data['categories'] = Category::all();
-        $data['products'] = Product::all();
+        $data['products'] = Product::orderBy('id','desc')->get();
        
         return view('frontend.pages.index',$data);
     }
@@ -126,7 +126,12 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+       
+        $data['detailsData'] = Product::find($id);
+        $details = Product::find($id);
+        $data['categories'] = Category::all();
+         $data['relatedProducts'] = Product::where('category_id',$details->category_id)->get();
+        return view('backend.products.product-details',$data);
     }
 
     /**
@@ -196,8 +201,10 @@ class ProductController extends Controller
             'product_id'=>$id,
             'image'=>json_encode($data)
         ]);
-      
-        
+        foreach ($product->tags as $key => $value) {
+            $tag_id = $value->id;
+        }
+        Product::find($product->id)->tags()->attach($tag_id);
        
     }
 

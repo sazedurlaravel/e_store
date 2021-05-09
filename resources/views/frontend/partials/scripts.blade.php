@@ -5,4 +5,4 @@
  <script src="frontend/lib/slick/slick.min.js"></script>
  
  <!-- Template Javascript -->
- <script src="frontend/js/main.js"></script>
+ <script src="/frontend/js/main.js"></script>

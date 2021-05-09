@@ -21,6 +21,7 @@ Route::group(['prefix'  =>  'admin'], function () {
     Route::post('/products/store','App\Http\controllers\ProductController@store')->name('product.store');
     Route::post('/products/update/{id}','App\Http\controllers\ProductController@update')->name('product.update');
     Route::get('/products/delete/{id}','App\Http\controllers\ProductController@destroy')->name('product.delete');
+    
     //brand routes
     Route::get('/brand','App\Http\controllers\BrandController@index')->name('brand.index');
     Route::get('/brand/create','App\Http\controllers\brandController@create')->name('brand.create');
